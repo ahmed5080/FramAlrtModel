@@ -23,9 +23,11 @@ public class WYSIWYGEditorPage {
 
 
     private void switchToFrame(){
+
         driver.switchTo().frame(frame);
     }
     private void switchToParent(){
+
         driver.switchTo().parentFrame();
     }
     public void insertEditor(String text){

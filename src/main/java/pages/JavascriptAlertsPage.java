@@ -45,6 +45,7 @@ public class JavascriptAlertsPage {
         driver.findElement(JSPromptBtn).click();
     }
     public void sendKeyAlert(String text){
+
         driver.switchTo().alert().sendKeys(text);
     }
 
